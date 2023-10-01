@@ -1,0 +1,25 @@
+{
+  "name": "typescript-starter-template",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A nodejs typescript template to quickly get started coding instead of configuring!",
+  "main": ".\\src\\index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx ts-node --esm .\\src\\index.ts",
+    "lint": "eslint src/**/*.ts",
+    "lint-fix": "eslint src/**/*.ts --fix",
+    "format": "prettier src/**/*.ts --write"
+  },
+  "author": "AngryBacteria",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.7.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
